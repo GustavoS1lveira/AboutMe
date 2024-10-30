@@ -97,3 +97,19 @@ footer a {
 footer a:hover {
     color: #f1c40f;
 }
+
+/* Estilo do botão "Minhas Experiências" */
+.botao-experiencias {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffdd57; /* Cor do botão (amarelo) */
+    color: #283e51; /* Cor do texto */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botao-experiencias:hover {
+    background-color: #f1c40f; /* Cor ao passar o mouse */
+}

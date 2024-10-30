@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative; /* Adicionando para permitir o posicionamento do botão */
+}
+
+header .voltar {
+    position: absolute; /* Mudando para posição absoluta */
+    top: 1rem; /* Distância do topo */
+    left: 1rem; /* Distância da esquerda */
+    padding: 0.5rem 1rem;
+    background-color: #ffdd57;
+    color: #283e51;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .voltar:hover {
+    background-color: #f1c40f;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    color: #ffdd57;
+}
+
+h2 {
+    border-bottom: 2px solid #ffdd57;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    position: fixed; /* Adicionando fixed para deixar o footer fixo na parte inferior */
+    bottom: 0; /* Distância da parte inferior */
+    left: 0; /* Alinhando à esquerda */
+    width: 100%; /* Ocupando toda a largura da tela */
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f1c40f;
+}
