@@ -48,14 +48,14 @@ h2 {
     margin-bottom: 1rem;
 }
 
-#habilidades ul {
+#projetos ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-#habilidades li {
+#projetos li {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     background-color: #ffdd57;
@@ -63,16 +63,16 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-#habilidades li:hover {
+#projetos li:hover {
     background-color: #f1c40f;
 }
 
-#projetos .projeto {
+#habilidades .projeto {
     margin: 1rem 0;
     transition: transform 0.3s ease;
 }
 
-#projetos .projeto:hover {
+#habilidades .projeto:hover {
     transform: scale(1.05);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -112,4 +112,18 @@ footer a:hover {
 
 .botao-experiencias:hover {
     background-color: #f1c40f; /* Cor ao passar o mouse */
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #1b1b2f;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffb700;
 }
